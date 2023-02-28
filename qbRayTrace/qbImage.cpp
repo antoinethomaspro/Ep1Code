@@ -116,6 +116,7 @@ Uint32 qbImage::ConvertColor(const double red, const double green, const double 
 	#else
 		Uint32 pixelColor = (255 << 24) + (r << 16) + (g << 8) + b;
 	#endif
+	// test
 	
 	return pixelColor;
 }
